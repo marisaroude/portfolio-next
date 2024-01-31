@@ -16,6 +16,10 @@
         "image": "icon-css.png"
     },
     {
+        "name": "TypeScript",
+        "image": "icon-typescript.svg"
+    },
+    {
         "name": "Bootstrap",
         "image": "icon-bootstrap.svg"
     },
