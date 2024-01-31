@@ -1,10 +1,10 @@
-
 @media (max-width: 768px) {
-    .container{
+    .container {
         flex-direction: column;
         padding: 2em;
     }
 
-   
+    .paragraph {
+        width: 100%;
+    }
 }
-

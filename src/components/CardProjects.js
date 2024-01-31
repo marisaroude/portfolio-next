@@ -5,7 +5,7 @@ import iconGithub from '../../public/icons/icon-github.svg'
 import iconDeploy from '../../public/icons/icon-monitor.png'
 import { Tooltip } from 'antd'
 
-export default function CardProjects({ name, technologies, image, description, linkGithub, linkDeploy }) {
+export default function CardProjects({ name, technologies, image, description, linkGithub, linkDeploy , client, linkClient}) {
     const [githubHovered, setGithubHovered] = useState(false);
     const [deployHovered, setDeployHovered] = useState(false);
     return (
@@ -24,7 +24,11 @@ export default function CardProjects({ name, technologies, image, description, l
             <div className={style.imageCard}>
                 <Image src={image} />
             </div>
-            <p className={`text-white text-sm mb-4`}>{description}</p>
+            <p className={`text-white text-sm mb-4`}>{description}
+            {client && linkClient &&
+                <a className='text-salmon' href={linkClient} target='_blank'>{client}</a>
+            }
+            </p>
             <div className={`flex justify-center space-x-4 mt-auto`}>
                 {linkGithub && (
                     <a
