@@ -1,0 +1,43 @@
+
+.container h1 {
+    opacity: 0;
+    /* Establecer la opacidad inicial en 0 */
+    animation: fadeIn 3s forwards;
+    /* Aplicar la animación 'fadeIn' durante 2 segundos y mantener el estado final */
+}
+
+.imageContainer{
+    margin-right: 5em;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+        /* Opcional: Agregar un desplazamiento hacia arriba al principio */
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        /* Opcional: Restaurar la posición original al final */
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
+    .container h1 {
+        margin-top: 1em;
+        margin-bottom: .5em;
+        font-size: 3em;
+    }
+
+    .imageContainer{
+        margin-right: 0px !important;
+    }
+
+  }

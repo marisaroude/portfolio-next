@@ -1,0 +1,22 @@
+.fixedContainer {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 13px 12px rgb(0 0 0 / 70%);
+  background-image: linear-gradient(180deg,
+      rgba(0, 0, 0, 0.56),
+      rgba(0, 0, 0, 0.21) 31%,
+      rgba(0, 0, 0, 0.49) 69%,
+      rgba(0, 0, 0, 0.70));
+  /* Ajusta el valor según sea necesario para evitar superposiciones con otros elementos fijos */
+}
+
+.contentContainer {
+  /* padding-top: .5em; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+  /* width: 60vw; */
+}

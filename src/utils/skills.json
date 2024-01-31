@@ -1,0 +1,62 @@
+[
+    {
+        "name": "NextJS",
+        "image": "icon-nextjs.png"
+    },
+    {
+        "name": "React",
+        "image": "icon-react.svg"
+    },
+    {
+        "name": "JavaScript",
+        "image": "icon-javascript.svg"
+    },
+    {
+        "name": "CSS",
+        "image": "icon-css.png"
+    },
+    {
+        "name": "Bootstrap",
+        "image": "icon-bootstrap.svg"
+    },
+    {
+        "name": "PostgreSQL",
+        "image": "icon-postgresql.svg"
+    },
+    {
+        "name": "GraphQL",
+        "image": "icon-graphql.svg"
+    },
+    {
+        "name": "ExpressJS",
+        "image": "icon-expressjs.svg"
+    },
+    {
+        "name": "NodeJS",
+        "image": "icon-nodejs.svg"
+    },
+    {
+        "name": "TailwindCSS",
+        "image": "icon-tailwindcss.svg"
+    },
+    {
+        "name": "HTML5",
+        "image": "icon-html5.svg"
+    },
+    {
+        "name": "Python",
+        "image": "icon-python.svg"
+    },
+    {
+        "name": "Postman",
+        "image": "icon-postman.png"
+    },
+    {
+        "name": "Figma",
+        "image": "icon-figma.svg"
+    },
+    {
+        "name": "AdobeXD",
+        "image": "icon-adobexd.svg"
+    }
+]

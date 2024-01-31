@@ -1,0 +1,13 @@
+.imageCard >*{
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.container{
+    box-shadow: 8px 0 8px -6px rgba(0, 0, 0, 0.5), -8px 0 8px -6px rgba(0, 0, 0, 0.5);
+}
+@media (max-width:768px){
+    .container{
+        width: 100%;
+    }
+}

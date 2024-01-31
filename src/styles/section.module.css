@@ -1,0 +1,21 @@
+.sectionRight{
+    transform: rotate(-90deg);
+    white-space: nowrap;
+  }
+
+  .sectionLeft{
+    transform: rotate(90deg);
+    white-space: nowrap;
+  }
+
+
+@media (max-width: 768px){
+  .sectionLeft,
+  .sectionRight{
+    transform: none;
+  }
+
+  .line{
+    margin-bottom: 2em;
+}
+}
