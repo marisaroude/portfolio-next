@@ -43,7 +43,7 @@ export default function Projects() {
 
                     ]}
                     image={imageViandas}
-                    description={'Internal system of a kitchen with inclusion of orders in thermal printer. Implementation of login, ABM of orders, clients, menu, missing items. It was developed for the clients:  '}
+                    description={'Internal system of a kitchen with inclusion of orders in thermal printer. Implementation of login, INSERT, UPDATE and DELETE of orders, clients, menu, missing items. It was developed for the clients:  '}
                     client={'Viandas Fresh & Healthy'}
                     linkClient={"https://www.instagram.com/viandas_fresh.healthy/"}
                     linkDeploy={'https://drive.google.com/file/d/1qW8-C65w2DMGa7HLDe5aJPvAyR1xOjaf/view?usp=sharing'}
