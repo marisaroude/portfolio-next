@@ -11,6 +11,7 @@ import iconHome from '../../public/icons/icon-home.svg'
 import SocialButton from './SocialButton'
 
 export default function RenderButtons({ section }) {
+    const cv = "https://drive.google.com/file/d/1ecifXSKZZWDQLHXhlfoN-2lHozY0iyp3/view?usp=sharing"
     return (
         <div className=''>
             {section === 'options' &&
@@ -24,7 +25,7 @@ export default function RenderButtons({ section }) {
                 <div className='flex flex-wrap '>
                     <SocialButton type={'LinkedIn'} icon={iconLinkedin} link={'https://www.linkedin.com/in/marisaroudedeveloper/'}/>
                     <SocialButton type={'GitHub'} icon={iconGitHub} link={'https://github.com/marisaroude/'}/>
-                    <SocialButton type={'Curriculum'} icon={iconCv} link={'https://drive.google.com/file/d/1HeGlykzPL-m-trgbOGx-NTVYPx6yy0yq/view?usp=sharing'}/>
+                    <SocialButton type={'Curriculum'} icon={iconCv} link={cv}/>
                     <SocialButton type={'marisaroude1@gmail.com'} icon={iconContact} link={'mailto:marisaroude1@gmail.com'}/>
                 </div>
             }
