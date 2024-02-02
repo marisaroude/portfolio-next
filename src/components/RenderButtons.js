@@ -11,7 +11,7 @@ import iconHome from '../../public/icons/icon-home.svg'
 import SocialButton from './SocialButton'
 
 export default function RenderButtons({ section }) {
-    const cv = "https://drive.google.com/file/d/1ecifXSKZZWDQLHXhlfoN-2lHozY0iyp3/view?usp=sharing"
+    const cv = "https://drive.google.com/drive/folders/1fx9lWglk03lECLdYgwNEGD-L5-G4Xuc6?usp=sharing"
     return (
         <div className=''>
             {section === 'options' &&
