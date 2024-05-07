@@ -4,7 +4,7 @@
         "image": "icon-nextjs.png"
     },
     {
-        "name": "React",
+        "name": "React & React Native",
         "image": "icon-react.svg"
     },
     {
@@ -22,6 +22,10 @@
     {
         "name": "Bootstrap",
         "image": "icon-bootstrap.svg"
+    },
+    {
+        "name": "Styled Components",
+        "image": "icon-styled-components.svg"
     },
     {
         "name": "PostgreSQL",

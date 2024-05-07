@@ -25,7 +25,7 @@ export default function RenderButtons({ section }) {
                 <div className='flex flex-wrap '>
                     <SocialButton type={'LinkedIn'} icon={iconLinkedin} link={'https://www.linkedin.com/in/marisaroudedeveloper/'}/>
                     <SocialButton type={'GitHub'} icon={iconGitHub} link={'https://github.com/marisaroude/'}/>
-                    <SocialButton type={'Curriculum'} icon={iconCv} link={cv}/>
+                    <SocialButton type={'Resume'} icon={iconCv} link={cv}/>
                     <SocialButton type={'marisaroude1@gmail.com'} icon={iconContact} link={'mailto:marisaroude1@gmail.com'}/>
                 </div>
             }
