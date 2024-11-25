@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Sama Fertility",
+    "location": "San Francisco, USA",
+    "duration": "July 2024 - Present",
+    "description": " * Analyzing and solving problems related to the implementation of web solutions. * Implementation of various functionalities for a better user experience. * Implemented new component stylizations to enhance the visual appeal and usability of web and mobile applications. * React JS | Redux | TypeScript | Git | Github | Linear | Docker engine & Docker-compose knowledge. * https://sama.life"
+  },
+  {
+    "name": "Visibly",
+    "location": "Chicago, Illinois, USA",
+    "duration": "October 2024 - Present",
+    "description": "* Development of a custom Shopify App with a Theme App Extension. * Proficient in the structure of blocks, snippets, and assets.Integration with Shopify API, Shopify GraphQL, and external APIs. * Knowledge of themes, theme customization, admin dashboard, partners dashboard, webhooks, metafields, metaobjects, and SKUs."
+  },
+  {
+    "name": "Nibbiny",
+    "location": "USA",
+    "duration": "April 2024 - July 2025",
+    "description": "* Created a mobile app where users can create stories with chapters. * Implemented a search functionality for finding stories. * Used TypeScript in the frontend to ensure type safety and improve code quality. * Developed login and registration features with email/password and Google authentication. * Integrated Redux Toolkit for state management. * Implemented Cloudinary for image storage and management. * Built APK with EAS (Expo Application Services) for distribution. * Configured Expo Router with stack and tab navigation for seamless app navigation. * Developed the backend with Express, Node.js, MongoDB, and deployed on Heroku."
+  },
+  {
+    "name": "Bold Finance",
+    "location": "ARG",
+    "duration": "Jun 2024 - July 2025",
+    "description": "* Full-stack development of various features related to order flow, expenses, suppliers, and more. * Frontend development using React.js, Next.js, TypeScript, and Tailwind CSS. * Backend development with Node.js, Express, PostgreSQL, and deployment on Heroku. * Implemented React Hook Form and Zod for form validation and management. * Integrated Material UI for React to enhance the user interface. * Implemented Redux for state management across the application."
+  }
+]
